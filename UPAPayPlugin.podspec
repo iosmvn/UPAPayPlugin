@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UPAPayPlugin"
-  s.version      = "3.3.11"
+  s.version      = "3.3.11.1"
   s.summary      = "银联支付控件 for iOS - 银联手机支付控件是中国银联推出的手机支付产品，用户在银联签约商户的手机客户端进行付款时，可选择银联云闪付进行安全、便捷的支付产品。"
 
   # This description is used to generate tags and improve search results.
@@ -95,9 +95,8 @@ Pod::Spec.new do |s|
 
   s.source_files  = "paymentcontrol/**/*.{h,m}"
   s.vendored_libraries  = 'paymentcontrol/**/*.{a}'
-  s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "paymentcontrol/**/*.{h}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
